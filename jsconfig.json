@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true    
+  }
+}

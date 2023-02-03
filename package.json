@@ -1,0 +1,36 @@
+{
+  "name": "tc39-proposals-playground",
+  "private": true,
+  "version": "0.0.0",
+  "main": "lib/main.mjs",
+  "scripts": {
+    "dev": "rollup -cw --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/plugin-proposal-async-do-expressions": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.13",
+    "@babel/plugin-proposal-do-expressions": "^7.18.6",
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
+    "@babel/plugin-proposal-function-bind": "^7.18.9",
+    "@babel/plugin-proposal-function-sent": "^7.18.6",
+    "@babel/plugin-proposal-partial-application": "^7.18.9",
+    "@babel/plugin-proposal-pipeline-operator": "^7.18.9",
+    "@babel/plugin-proposal-record-and-tuple": "^7.18.6",
+    "@babel/plugin-proposal-throw-expressions": "^7.18.6",
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-run": "^3.0.1",
+    "rollup": "^3.12.1",
+    "rollup-plugin-node-externals": "^5.1.0"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
